@@ -11,6 +11,7 @@ const screenOptionStyle = {
 const HomeStackNavigator = () => {
     return(
         <Stack.Navigator screenOptions={screenOptionStyle}>
+
             <Stack.Screen name="List" component={List}/>
             <Stack.Screen name="Detail" component={Detail}/>
         </Stack.Navigator>
